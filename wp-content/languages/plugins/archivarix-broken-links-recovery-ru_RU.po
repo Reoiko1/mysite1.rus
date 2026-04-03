@@ -1,0 +1,594 @@
+# Translation of Plugins - Archivarix Broken Links Recovery - Stable (latest release) in Russian
+# This file is distributed under the same license as the Plugins - Archivarix Broken Links Recovery - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2026-03-11 11:22:19+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.3\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - Archivarix Broken Links Recovery - Stable (latest release)\n"
+
+#: templates/admin-page.php:321
+msgid "Run a scan first, then view results here."
+msgstr "Сначала запустите сканирование, затем смотрите результаты здесь."
+
+#: templates/admin-page.php:317
+msgid "Actions"
+msgstr "Действия"
+
+#: templates/admin-page.php:316
+msgid "Web Archive"
+msgstr "Web Archive"
+
+#: templates/admin-page.php:314
+msgid "Reason"
+msgstr "Причина"
+
+#: templates/admin-page.php:313
+msgid "Status"
+msgstr "Статус"
+
+#: templates/admin-page.php:312
+msgid "URL"
+msgstr "URL"
+
+#: templates/admin-page.php:305
+msgid "For complex pages (Elementor, page builders), it's better to edit directly in the WordPress editor. Use \"Edit Source\" button to open the post."
+msgstr "Для сложных страниц (Elementor, конструкторы страниц) лучше редактировать непосредственно в редакторе WordPress. Используйте кнопку «Редактировать источник», чтобы открыть запись."
+
+#: templates/admin-page.php:305
+msgid "Tip:"
+msgstr "Совет:"
+
+#: templates/admin-page.php:291
+msgid "Show:"
+msgstr "Показать:"
+
+#: templates/admin-page.php:286
+msgid "Apply"
+msgstr "Применить"
+
+#: templates/admin-page.php:284
+msgid "Undo"
+msgstr "Отменить"
+
+#: templates/admin-page.php:283
+msgid "Skip"
+msgstr "Пропустить"
+
+#: templates/admin-page.php:282
+msgid "Delete completely"
+msgstr "Удалить полностью"
+
+#: templates/admin-page.php:281
+msgid "Keep text only"
+msgstr "Оставить только текст"
+
+#: templates/admin-page.php:280
+msgid "Use Archive copy"
+msgstr "Использовать архивную копию"
+
+#: templates/admin-page.php:279
+msgid "Bulk Actions"
+msgstr "Массовые действия"
+
+#: templates/admin-page.php:274
+msgid "Internal 404"
+msgstr "Внутренние 404"
+
+#: templates/admin-page.php:272 templates/admin-page.php:296
+msgid "All"
+msgstr "Все"
+
+#: templates/admin-page.php:270
+msgid "Filter"
+msgstr "Фильтр"
+
+#: templates/admin-page.php:269
+msgid "Search URL or anchor..."
+msgstr "Поиск по URL или якорному тексту..."
+
+#: templates/admin-page.php:267
+msgid "Pending"
+msgstr "В ожидании"
+
+#: templates/admin-page.php:261
+msgid "All statuses"
+msgstr "Все статусы"
+
+#: templates/admin-page.php:254
+msgid "Clear All Data"
+msgstr "Очистить все данные"
+
+#: templates/admin-page.php:250 templates/admin-page.php:266
+msgid "Skipped"
+msgstr "Пропущено"
+
+#: templates/admin-page.php:249 templates/admin-page.php:264
+msgid "Uncheckable"
+msgstr "Непроверяемые"
+
+#: templates/admin-page.php:248 templates/admin-page.php:263
+msgid "Fixed"
+msgstr "Исправлено"
+
+#: templates/admin-page.php:246 templates/admin-page.php:265
+msgid "OK"
+msgstr "OK"
+
+#: templates/admin-page.php:245
+msgid "Total"
+msgstr "Всего"
+
+#: templates/admin-page.php:231
+msgid "Skipped:"
+msgstr "Пропущено:"
+
+#: templates/admin-page.php:226
+msgid "Uncheckable:"
+msgstr "Непроверяемые:"
+
+#: templates/admin-page.php:221
+msgid "Fixed:"
+msgstr "Исправлено:"
+
+#: templates/admin-page.php:216
+msgid "Broken:"
+msgstr "Битые:"
+
+#: templates/admin-page.php:213 templates/admin-page.php:273
+msgid "External"
+msgstr "Внешние"
+
+#: templates/admin-page.php:212
+msgid "Internal"
+msgstr "Внутренние"
+
+#: templates/admin-page.php:211
+msgid "Checked:"
+msgstr "Проверено:"
+
+#: templates/admin-page.php:206
+msgid "External:"
+msgstr "Внешние:"
+
+#: templates/admin-page.php:203
+msgid "Internal:"
+msgstr "Внутренние:"
+
+#: templates/admin-page.php:200
+msgid "Total:"
+msgstr "Всего:"
+
+#: templates/admin-page.php:192
+msgid "Stop"
+msgstr "Стоп"
+
+#: templates/admin-page.php:191
+msgid "Pause"
+msgstr "Пауза"
+
+#: templates/admin-page.php:190
+msgid "Background process is running..."
+msgstr "Фоновый процесс выполняется..."
+
+#: templates/admin-page.php:184
+msgid "Start Fresh"
+msgstr "Начать заново"
+
+#: templates/admin-page.php:183
+msgid "Resume"
+msgstr "Возобновить"
+
+#: templates/admin-page.php:182
+msgid "Previous scan was stopped. You can resume or start fresh."
+msgstr "Предыдущее сканирование было остановлено. Вы можете возобновить его или начать заново."
+
+#: templates/admin-page.php:179
+msgid "Scan your content for links and check their status."
+msgstr "Сканируйте ваш контент на наличие ссылок и проверяйте их статус."
+
+#: templates/admin-page.php:178
+msgid "Scan & Check Links"
+msgstr "Сканирование и проверка ссылок"
+
+#: templates/admin-page.php:170
+msgid "Visit Website"
+msgstr "Посетить сайт"
+
+#: templates/admin-page.php:166
+msgid "Restore websites from the <strong>Wayback Machine</strong> with high accuracy. Download archived sites, remove ads and trackers, optimize images, and get a fully functional copy powered by the free <strong>Archivarix CMS</strong>. Trusted by thousands of users worldwide since 2017 for website recovery, migration, and SEO projects."
+msgstr "Восстанавливайте сайты из <strong>Wayback Machine</strong> с высокой точностью. Скачивайте архивные сайты, удаляйте рекламу и трекеры, оптимизируйте изображения и получайте полностью рабочую копию на бесплатной <strong>Archivarix CMS</strong>. С 2017 года тысячи пользователей по всему миру доверяют нам восстановление сайтов, миграцию и SEO-проекты."
+
+#: templates/admin-page.php:152
+msgid "Save Settings"
+msgstr "Сохранить настройки"
+
+#: templates/admin-page.php:146
+msgid "When enabled, internal 404 links will be automatically fixed during scan. Web Archive is not used for internal links — they will be removed based on the action above (keep or remove anchor text)."
+msgstr "Когда включено, внутренние ссылки с ошибкой 404 будут автоматически исправлены во время сканирования. Web Archive не используется для внутренних ссылок — они будут удалены в соответствии с выбранным выше действием (сохранить или удалить текст привязки)."
+
+#: templates/admin-page.php:145
+msgid "Apply auto-fix to internal 404 links"
+msgstr "Применять автоисправление к внутренним ссылкам с ошибкой 404"
+
+#: templates/admin-page.php:137
+msgid "Skip Web Archive, remove link and anchor text"
+msgstr "Пропустить Web Archive, удалить ссылку и текст привязки"
+
+#: templates/admin-page.php:136
+msgid "Skip Web Archive, just remove link"
+msgstr "Пропустить Web Archive, просто удалить ссылку"
+
+#: templates/admin-page.php:135
+msgid "Web Archive if possible, otherwise remove link and anchor text"
+msgstr "Web Archive если возможно, иначе удалить ссылку и текст привязки"
+
+#: templates/admin-page.php:134
+msgid "Web Archive if possible, otherwise remove link"
+msgstr "Web Archive если возможно, иначе удалить ссылку"
+
+#: templates/admin-page.php:131
+msgid "Auto Action"
+msgstr "Автоматическое действие"
+
+#: templates/admin-page.php:126
+msgid "Automatic — Fix broken links during scan"
+msgstr "Автоматически — Исправлять битые ссылки во время сканирования"
+
+#: templates/admin-page.php:125
+msgid "Manual — Review and fix links manually"
+msgstr "Вручную — Просматривайте и исправляйте ссылки вручную"
+
+#: templates/admin-page.php:122
+msgid "Processing Mode"
+msgstr "Режим обработки"
+
+#: templates/admin-page.php:119
+msgid "Automatic Actions"
+msgstr "Автоматические действия"
+
+#: templates/admin-page.php:113
+msgid "Some sites may block automated scanning. Add proxies to bypass these restrictions."
+msgstr "Некоторые сайты могут блокировать автоматическое сканирование. Добавьте прокси для обхода этих ограничений."
+
+#: templates/admin-page.php:105
+msgid "Test Proxies"
+msgstr "Проверить прокси"
+
+#: templates/admin-page.php:100
+msgid "Format: ip:port:user:pass — one proxy per line."
+msgstr "Формат: ip:port:user:pass — один прокси на строку."
+
+#: templates/admin-page.php:83
+msgid "ip:port:user:pass (one per line)"
+msgstr "ip:port:user:pass (по одному на строку)"
+
+#. translators: %d: number of proxies configured
+#: templates/admin-page.php:77
+msgid "%d proxy configured"
+msgid_plural "%d proxies configured"
+msgstr[0] "%d прокси настроен"
+msgstr[1] "%d прокси настроено"
+msgstr[2] "%d прокси настроено"
+
+#: templates/admin-page.php:72
+msgid "Clear Proxies"
+msgstr "Очистить прокси"
+
+#: templates/admin-page.php:67
+msgid "Add Proxies"
+msgstr "Добавить прокси"
+
+#: templates/admin-page.php:59
+msgid "Optional"
+msgstr "Необязательно"
+
+#: templates/admin-page.php:58
+msgid "Proxy List"
+msgstr "Список прокси"
+
+#: templates/admin-page.php:54
+msgid "Proxy Settings"
+msgstr "Настройки прокси"
+
+#: templates/admin-page.php:49
+msgid "Check internal links for 404 errors"
+msgstr "Проверять внутренние ссылки на ошибки 404"
+
+#: templates/admin-page.php:47 templates/admin-page.php:143
+msgid "Internal Links"
+msgstr "Внутренние ссылки"
+
+#: templates/admin-page.php:43
+msgid "Select which post types to scan for broken links."
+msgstr "Выберите типы записей для сканирования на битые ссылки."
+
+#: templates/admin-page.php:28
+msgid "Post Types"
+msgstr "Типы записей"
+
+#: templates/admin-page.php:25
+msgid "Scan Sources"
+msgstr "Источники сканирования"
+
+#: templates/admin-page.php:19
+msgid "Broken Links"
+msgstr "Битые ссылки"
+
+#: templates/admin-page.php:18
+msgid "Process"
+msgstr "Обработка"
+
+#: includes/class-ajax.php:182
+msgid "Internal link checking was enabled after the scan started. Internal links were not collected during extraction. Please start a new scan to check internal links."
+msgstr "Проверка внутренних ссылок была включена после начала сканирования. Внутренние ссылки не были собраны во время извлечения. Пожалуйста, запустите новое сканирование для проверки внутренних ссылок."
+
+#: includes/class-admin.php:156 templates/admin-page.php:17
+msgid "Settings"
+msgstr "Настройки"
+
+#: includes/class-admin.php:140
+msgid "Recheck this link"
+msgstr "Перепроверить эту ссылку"
+
+#: includes/class-admin.php:139
+msgid "Undo this action"
+msgstr "Отменить это действие"
+
+#: includes/class-admin.php:138
+msgid "Skip this link"
+msgstr "Пропустить эту ссылку"
+
+#: includes/class-admin.php:137
+msgid "Replace with custom URL"
+msgstr "Заменить на свой URL"
+
+#: includes/class-admin.php:136
+msgid "Delete link and text"
+msgstr "Удалить ссылку и текст"
+
+#: includes/class-admin.php:135
+msgid "Remove link, keep text"
+msgstr "Удалить ссылку, сохранить текст"
+
+#: includes/class-admin.php:134
+msgid "Replace with archived version"
+msgstr "Заменить архивной версией"
+
+#: includes/class-admin.php:133
+msgid "View on site"
+msgstr "Смотреть на сайте"
+
+#: includes/class-admin.php:132
+msgid "View Page"
+msgstr "Просмотр страницы"
+
+#: includes/class-admin.php:131
+msgid "Edit post in WordPress"
+msgstr "Редактировать запись в WordPress"
+
+#: includes/class-admin.php:130 templates/admin-page.php:315
+msgid "Edit Source"
+msgstr "Редактировать источник"
+
+#: includes/class-admin.php:128
+msgid "Clear all proxies?"
+msgstr "Очистить все прокси?"
+
+#: includes/class-admin.php:127
+msgid "proxies configured"
+msgstr "прокси настроено"
+
+#: includes/class-admin.php:126
+msgid "1 proxy configured"
+msgstr "1 прокси настроен"
+
+#: includes/class-admin.php:125
+msgid "proxies saved"
+msgstr "прокси сохранено"
+
+#: includes/class-admin.php:124
+msgid "proxies kept"
+msgstr "прокси сохранено"
+
+#: includes/class-admin.php:123
+msgid "Keep only working proxies"
+msgstr "Оставить только рабочие прокси"
+
+#: includes/class-admin.php:122
+msgid "working"
+msgstr "работает"
+
+#: includes/class-admin.php:121
+msgid "Testing proxies..."
+msgstr "Тестирование прокси..."
+
+#: includes/class-admin.php:120
+msgid "No proxies to test"
+msgstr "Нет прокси для тестирования"
+
+#: includes/class-admin.php:118
+msgid "Do not check Web Archive. Immediately remove both the link tag and its anchor text completely. Faster processing — saves 1-3 seconds per broken link."
+msgstr "Не проверять Web Archive. Сразу полностью удалить тег ссылки и текст привязки. Быстрая обработка — экономит 1-3 секунды на каждую битую ссылку."
+
+#: includes/class-admin.php:117
+msgid "Do not check Web Archive. Immediately remove the link tag but keep the anchor text visible. Faster processing — saves 1-3 seconds per broken link."
+msgstr "Не проверять Web Archive. Сразу удалить тег ссылки, но сохранить текст привязки видимым. Быстрая обработка — экономит 1-3 секунды на каждую битую ссылку."
+
+#: includes/class-admin.php:116
+msgid "If found in Web Archive — replace broken link with archive copy. If not found — remove both the link tag and its anchor text completely."
+msgstr "Если найдено в Web Archive — заменить битую ссылку архивной копией. Если не найдено — полностью удалить тег ссылки и текст привязки."
+
+#: includes/class-admin.php:115
+msgid "If found in Web Archive — replace broken link with archive copy. If not found — remove the link tag but keep the anchor text visible."
+msgstr "Если найдено в Web Archive — заменить битую ссылку архивной копией. Если не найдено — удалить тег ссылки, но сохранить текст привязки видимым."
+
+#: includes/class-admin.php:114
+msgid "Internal link checking is not enabled. Go to Settings tab and enable \"Check internal links for 404 errors\", then run a new scan."
+msgstr "Проверка внутренних ссылок не включена. Перейдите на вкладку «Настройки» и включите «Проверять внутренние ссылки на ошибки 404», затем запустите новое сканирование."
+
+#: includes/class-admin.php:113
+msgid "Not applicable for internal links"
+msgstr "Не применимо для внутренних ссылок"
+
+#: includes/class-admin.php:112
+msgid "Search for this URL in Web Archive"
+msgstr "Найти этот URL в Web Archive"
+
+#: includes/class-admin.php:111
+msgid "Open archived version in Web Archive"
+msgstr "Открыть архивную версию в Web Archive"
+
+#: includes/class-admin.php:110
+msgid "Search"
+msgstr "Поиск"
+
+#: includes/class-admin.php:109
+msgid "View"
+msgstr "Просмотр"
+
+#: includes/class-admin.php:108
+msgid "Pending links"
+msgstr "Ожидающие ссылки"
+
+#: includes/class-admin.php:107
+msgid "Items to scan"
+msgstr "Элементов для сканирования"
+
+#: includes/class-admin.php:106
+msgid "internal"
+msgstr "внутренние"
+
+#: includes/class-admin.php:105 templates/admin-page.php:247
+#: templates/admin-page.php:262
+msgid "Broken"
+msgstr "Битые"
+
+#: includes/class-admin.php:104
+msgid "Checked"
+msgstr "Проверено"
+
+#: includes/class-admin.php:103
+msgid "Links"
+msgstr "Ссылки"
+
+#: includes/class-admin.php:102
+msgid "links found"
+msgstr "ссылок найдено"
+
+#: includes/class-admin.php:101
+msgid "Checking links"
+msgstr "Проверка ссылок"
+
+#: includes/class-admin.php:100
+msgid "Extracting links"
+msgstr "Извлечение ссылок"
+
+#: includes/class-admin.php:99
+msgid "Copied!"
+msgstr "Скопировано!"
+
+#: includes/class-admin.php:98
+msgid "No logs yet."
+msgstr "Логов пока нет."
+
+#: includes/class-admin.php:97
+msgid "No links found."
+msgstr "Ссылки не найдены."
+
+#: includes/class-admin.php:96
+msgid "Enter replacement URL:"
+msgstr "Введите URL для замены:"
+
+#: includes/class-admin.php:95
+msgid "No links selected."
+msgstr "Ссылки не выбраны."
+
+#: includes/class-admin.php:94
+msgid "All data cleared."
+msgstr "Все данные очищены."
+
+#: includes/class-admin.php:93
+msgid "Are you sure you want to clear all data? This cannot be undone."
+msgstr "Вы уверены, что хотите очистить все данные? Это действие нельзя отменить."
+
+#: includes/class-admin.php:92
+msgid "Are you sure you want to restart from the beginning? Already checked links will be skipped (cached)."
+msgstr "Вы уверены, что хотите начать сначала? Уже проверенные ссылки будут пропущены (закешированы)."
+
+#: includes/class-admin.php:91
+msgid "Stop the scan completely? You will not be able to resume — only start a new scan."
+msgstr "Полностью остановить сканирование? Вы не сможете возобновить его — только начать новое сканирование."
+
+#: includes/class-admin.php:90
+msgid "Pause the scan? You can resume it later."
+msgstr "Приостановить сканирование? Вы сможете возобновить его позже."
+
+#: includes/class-admin.php:89
+msgid "Start processing?"
+msgstr "Начать обработку?"
+
+#: includes/class-admin.php:88
+msgid "Error"
+msgstr "Ошибка"
+
+#: includes/class-admin.php:87
+msgid "Scan stopped."
+msgstr "Сканирование остановлено."
+
+#: includes/class-admin.php:86
+msgid "Scan paused."
+msgstr "Сканирование приостановлено."
+
+#: includes/class-admin.php:85
+msgid "Scan complete!"
+msgstr "Сканирование завершено!"
+
+#: includes/class-admin.php:84
+msgid "Scan resumed"
+msgstr "Сканирование возобновлено"
+
+#: includes/class-admin.php:83
+msgid "Scan started"
+msgstr "Сканирование начато"
+
+#: includes/class-admin.php:82 templates/admin-page.php:180
+msgid "Start Scan"
+msgstr "Начать сканирование"
+
+#: includes/class-admin.php:81
+msgid "Scanning..."
+msgstr "Сканирование..."
+
+#: includes/class-admin.php:37
+msgid "Broken Links Recovery"
+msgstr "Восстановление битых ссылок"
+
+#. Author URI of the plugin
+#: archivarix-broken-links-recovery.php
+msgid "https://archivarix.com/"
+msgstr "https://archivarix.com/"
+
+#. Author of the plugin
+#: archivarix-broken-links-recovery.php
+msgid "Archivarix"
+msgstr "Archivarix"
+
+#. Description of the plugin
+#: archivarix-broken-links-recovery.php
+msgid "Finds broken external and internal links in WordPress content and replaces them with Web Archive copies or manages them manually."
+msgstr "Находит неработающие внешние и внутренние ссылки в содержимом WordPress и заменяет их копиями из Web Archive или управляет ими вручную."
+
+#. Plugin URI of the plugin
+#: archivarix-broken-links-recovery.php
+msgid "https://archivarix.com/en/blog/broken-links-recovery/"
+msgstr "https://archivarix.com/en/blog/broken-links-recovery/"
+
+#. Plugin Name of the plugin
+#: archivarix-broken-links-recovery.php includes/class-admin.php:36
+msgid "Archivarix Broken Links Recovery"
+msgstr "Archivarix Broken Links Recovery"

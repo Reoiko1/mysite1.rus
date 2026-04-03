@@ -1,0 +1,596 @@
+# Spanish translation for Archivarix Broken Links Recovery plugin.
+# Copyright (C) 2026 Archivarix
+# This file is distributed under the same license as the Archivarix Broken Links Recovery plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Archivarix Broken Links Recovery 1.0.0\n"
+"Report-Msgid-Bugs-To: https://archivarix.com/\n"
+"POT-Creation-Date: 2026-02-14 00:00:00+00:00\n"
+"PO-Revision-Date: 2026-03-11 00:00:00+00:00\n"
+"Last-Translator: \n"
+"Language-Team: Spanish\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: none\n"
+"X-Domain: archivarix-broken-links-recovery\n"
+
+#: src/plugin.php
+msgid "Internal link checking was enabled after the scan started. Internal links were not collected during extraction. Please start a new scan to check internal links."
+msgstr "La verificacion de enlaces internos se activo despues de iniciar el escaneo. Los enlaces internos no se recopilaron durante la extraccion. Por favor, inicie un nuevo escaneo para verificar los enlaces internos."
+
+#: src/plugin.php
+msgid "Archivarix Broken Links Recovery"
+msgstr "Archivarix Recuperacion de Enlaces Rotos"
+
+#: src/plugin.php
+msgid "Broken Links Recovery"
+msgstr "Recuperacion de Enlaces Rotos"
+
+#: src/plugin.php
+msgid "Scanning..."
+msgstr "Escaneando..."
+
+#: src/plugin.php
+msgid "Start Scan"
+msgstr "Iniciar escaneo"
+
+#: src/plugin.php
+msgid "Scan started"
+msgstr "Escaneo iniciado"
+
+#: src/plugin.php
+msgid "Scan resumed"
+msgstr "Escaneo reanudado"
+
+#: src/plugin.php
+msgid "Scan complete!"
+msgstr "Escaneo completado!"
+
+#: src/plugin.php
+msgid "Scan paused."
+msgstr "Escaneo en pausa."
+
+#: src/plugin.php
+msgid "Scan stopped."
+msgstr "Escaneo detenido."
+
+#: src/plugin.php
+msgid "Error"
+msgstr "Error"
+
+#: src/plugin.php
+msgid "Start processing?"
+msgstr "Iniciar el procesamiento?"
+
+#: src/plugin.php
+msgid "Pause the scan? You can resume it later."
+msgstr "Pausar el escaneo? Puede reanudarlo mas tarde."
+
+#: src/plugin.php
+msgid "Stop the scan completely? You will not be able to resume — only start a new scan."
+msgstr "Detener el escaneo completamente? No podra reanudarlo — solo iniciar un nuevo escaneo."
+
+#: src/plugin.php
+msgid "Are you sure you want to restart from the beginning? Already checked links will be skipped (cached)."
+msgstr "Esta seguro de que desea reiniciar desde el principio? Los enlaces ya verificados se omitiran (en cache)."
+
+#: src/plugin.php
+msgid "Are you sure you want to clear all data? This cannot be undone."
+msgstr "Esta seguro de que desea borrar todos los datos? Esta accion no se puede deshacer."
+
+#: src/plugin.php
+msgid "All data cleared."
+msgstr "Todos los datos han sido borrados."
+
+#: src/plugin.php
+msgid "No links selected."
+msgstr "No se han seleccionado enlaces."
+
+#: src/plugin.php
+msgid "Enter replacement URL:"
+msgstr "Introduzca la URL de reemplazo:"
+
+#: src/plugin.php
+msgid "No links found."
+msgstr "No se encontraron enlaces."
+
+#: src/plugin.php
+msgid "No logs yet."
+msgstr "Aun no hay registros."
+
+#: src/plugin.php
+msgid "Copied!"
+msgstr "Copiado!"
+
+#: src/plugin.php
+msgid "Extracting links"
+msgstr "Extrayendo enlaces"
+
+#: src/plugin.php
+msgid "Checking links"
+msgstr "Verificando enlaces"
+
+#: src/plugin.php
+msgid "links found"
+msgstr "enlaces encontrados"
+
+#: src/plugin.php
+msgid "Links"
+msgstr "Enlaces"
+
+#: src/plugin.php
+msgid "Checked"
+msgstr "Verificados"
+
+#: src/plugin.php
+msgid "Broken"
+msgstr "Rotos"
+
+#: src/plugin.php
+msgid "internal"
+msgstr "internos"
+
+#: src/plugin.php
+msgid "Items to scan"
+msgstr "Elementos a escanear"
+
+#: src/plugin.php
+msgid "Pending links"
+msgstr "Enlaces pendientes"
+
+#: src/plugin.php
+msgid "View"
+msgstr "Ver"
+
+#: src/plugin.php
+msgid "Search"
+msgstr "Buscar"
+
+#: src/plugin.php
+msgid "Open archived version in Web Archive"
+msgstr "Abrir version archivada en Web Archive"
+
+#: src/plugin.php
+msgid "Search for this URL in Web Archive"
+msgstr "Buscar esta URL en Web Archive"
+
+#: src/plugin.php
+msgid "Not applicable for internal links"
+msgstr "No aplicable para enlaces internos"
+
+#: src/plugin.php
+msgid "Internal link checking is not enabled. Go to Settings tab and enable \"Check internal links for 404 errors\", then run a new scan."
+msgstr "La verificacion de enlaces internos no esta habilitada. Vaya a la pestana de Ajustes y active \"Verificar enlaces internos con errores 404\", luego ejecute un nuevo escaneo."
+
+#: src/plugin.php
+msgid "If found in Web Archive — replace broken link with archive copy. If not found — remove the link tag but keep the anchor text visible."
+msgstr "Si se encuentra en Web Archive — reemplazar el enlace roto con la copia archivada. Si no se encuentra — eliminar la etiqueta del enlace pero mantener el texto ancla visible."
+
+#: src/plugin.php
+msgid "If found in Web Archive — replace broken link with archive copy. If not found — remove both the link tag and its anchor text completely."
+msgstr "Si se encuentra en Web Archive — reemplazar el enlace roto con la copia archivada. Si no se encuentra — eliminar tanto la etiqueta del enlace como su texto ancla completamente."
+
+#: src/plugin.php
+msgid "Do not check Web Archive. Immediately remove the link tag but keep the anchor text visible. Faster processing — saves 1-3 seconds per broken link."
+msgstr "No consultar Web Archive. Eliminar inmediatamente la etiqueta del enlace pero mantener el texto ancla visible. Procesamiento mas rapido — ahorra 1-3 segundos por enlace roto."
+
+#: src/plugin.php
+msgid "Do not check Web Archive. Immediately remove both the link tag and its anchor text completely. Faster processing — saves 1-3 seconds per broken link."
+msgstr "No consultar Web Archive. Eliminar inmediatamente tanto la etiqueta del enlace como su texto ancla completamente. Procesamiento mas rapido — ahorra 1-3 segundos por enlace roto."
+
+#: src/plugin.php
+msgid "No proxies to test"
+msgstr "No hay proxies para probar"
+
+#: src/plugin.php
+msgid "Testing proxies..."
+msgstr "Probando proxies..."
+
+#: src/plugin.php
+msgid "working"
+msgstr "funcionando"
+
+#: src/plugin.php
+msgid "Keep only working proxies"
+msgstr "Mantener solo los proxies funcionales"
+
+#: src/plugin.php
+msgid "proxies kept"
+msgstr "proxies conservados"
+
+#: src/plugin.php
+msgid "proxies saved"
+msgstr "proxies guardados"
+
+#: src/plugin.php
+msgid "1 proxy configured"
+msgstr "1 proxy configurado"
+
+#: src/plugin.php
+msgid "proxies configured"
+msgstr "proxies configurados"
+
+#: src/plugin.php
+msgid "Clear all proxies?"
+msgstr "Borrar todos los proxies?"
+
+#: src/plugin.php
+msgid "Edit Source"
+msgstr "Editar fuente"
+
+#: src/plugin.php
+msgid "Edit post in WordPress"
+msgstr "Editar entrada en WordPress"
+
+#: src/plugin.php
+msgid "View Page"
+msgstr "Ver pagina"
+
+#: src/plugin.php
+msgid "View on site"
+msgstr "Ver en el sitio"
+
+#: src/plugin.php
+msgid "Replace with archived version"
+msgstr "Reemplazar con version archivada"
+
+#: src/plugin.php
+msgid "Remove link, keep text"
+msgstr "Eliminar enlace, conservar texto"
+
+#: src/plugin.php
+msgid "Delete link and text"
+msgstr "Eliminar enlace y texto"
+
+#: src/plugin.php
+msgid "Replace with custom URL"
+msgstr "Reemplazar con URL personalizada"
+
+#: src/plugin.php
+msgid "Skip this link"
+msgstr "Omitir este enlace"
+
+#: src/plugin.php
+msgid "Undo this action"
+msgstr "Deshacer esta accion"
+
+#: src/plugin.php
+msgid "Recheck this link"
+msgstr "Volver a verificar este enlace"
+
+#: src/plugin.php
+msgid "Settings"
+msgstr "Ajustes"
+
+#: src/plugin.php
+msgid "Process"
+msgstr "Procesar"
+
+#: src/plugin.php
+msgid "Broken Links"
+msgstr "Enlaces rotos"
+
+#: src/plugin.php
+msgid "Scan Sources"
+msgstr "Fuentes de escaneo"
+
+#: src/plugin.php
+msgid "Post Types"
+msgstr "Tipos de entrada"
+
+#: src/plugin.php
+msgid "Select which post types to scan for broken links."
+msgstr "Seleccione que tipos de entrada escanear en busca de enlaces rotos."
+
+#: src/plugin.php
+msgid "Internal Links"
+msgstr "Enlaces internos"
+
+#: src/plugin.php
+msgid "Check internal links for 404 errors"
+msgstr "Verificar enlaces internos con errores 404"
+
+#: src/plugin.php
+msgid "Proxy Settings"
+msgstr "Ajustes de proxy"
+
+#: src/plugin.php
+msgid "Proxy List"
+msgstr "Lista de proxies"
+
+#: src/plugin.php
+msgid "Optional"
+msgstr "Opcional"
+
+#: src/plugin.php
+msgid "Add Proxies"
+msgstr "Agregar proxies"
+
+#: src/plugin.php
+msgid "Clear Proxies"
+msgstr "Borrar proxies"
+
+#: src/plugin.php
+msgid "%d proxy configured"
+msgid_plural "%d proxies configured"
+msgstr[0] "%d proxy configurado"
+msgstr[1] "%d proxies configurados"
+
+#: src/plugin.php
+msgid "ip:port:user:pass (one per line)"
+msgstr "ip:puerto:usuario:contrasena (uno por linea)"
+
+#: src/plugin.php
+msgid "Format: ip:port:user:pass — one proxy per line."
+msgstr "Formato: ip:puerto:usuario:contrasena — un proxy por linea."
+
+#: src/plugin.php
+msgid "Test Proxies"
+msgstr "Probar proxies"
+
+#: src/plugin.php
+msgid "Some sites may block automated scanning. Add proxies to bypass these restrictions."
+msgstr "Algunos sitios pueden bloquear el escaneo automatizado. Agregue proxies para evitar estas restricciones."
+
+#: src/plugin.php
+msgid "Automatic Actions"
+msgstr "Acciones automaticas"
+
+#: src/plugin.php
+msgid "Processing Mode"
+msgstr "Modo de procesamiento"
+
+#: src/plugin.php
+msgid "Manual — Review and fix links manually"
+msgstr "Manual — Revisar y corregir enlaces manualmente"
+
+#: src/plugin.php
+msgid "Automatic — Fix broken links during scan"
+msgstr "Automatico — Corregir enlaces rotos durante el escaneo"
+
+#: src/plugin.php
+msgid "Auto Action"
+msgstr "Accion automatica"
+
+#: src/plugin.php
+msgid "Web Archive if possible, otherwise remove link"
+msgstr "Web Archive si es posible, de lo contrario eliminar enlace"
+
+#: src/plugin.php
+msgid "Web Archive if possible, otherwise remove link and anchor text"
+msgstr "Web Archive si es posible, de lo contrario eliminar enlace y texto ancla"
+
+#: src/plugin.php
+msgid "Skip Web Archive, just remove link"
+msgstr "Omitir Web Archive, solo eliminar enlace"
+
+#: src/plugin.php
+msgid "Skip Web Archive, remove link and anchor text"
+msgstr "Omitir Web Archive, eliminar enlace y texto ancla"
+
+#: src/plugin.php
+msgid "Apply auto-fix to internal 404 links"
+msgstr "Aplicar correccion automatica a enlaces internos 404"
+
+#: src/plugin.php
+msgid "When enabled, internal 404 links will be automatically fixed during scan. Web Archive is not used for internal links — they will be removed based on the action above (keep or remove anchor text)."
+msgstr "Cuando esta habilitado, los enlaces internos 404 se corregiran automaticamente durante el escaneo. Web Archive no se usa para enlaces internos — se eliminaran segun la accion anterior (conservar o eliminar el texto ancla)."
+
+#: src/plugin.php
+msgid "Save Settings"
+msgstr "Guardar ajustes"
+
+#: src/plugin.php
+msgid "Restore websites from the <strong>Wayback Machine</strong> with high accuracy. Download archived sites, remove ads and trackers, optimize images, and get a fully functional copy powered by the free <strong>Archivarix CMS</strong>. Trusted by thousands of users worldwide since 2017 for website recovery, migration, and SEO projects."
+msgstr "Restaure sitios web desde la <strong>Wayback Machine</strong> con alta precision. Descargue sitios archivados, elimine anuncios y rastreadores, optimice imagenes y obtenga una copia completamente funcional con el <strong>Archivarix CMS</strong> gratuito. De confianza para miles de usuarios en todo el mundo desde 2017 para recuperacion de sitios web, migracion y proyectos SEO."
+
+#: src/plugin.php
+msgid "Visit Website"
+msgstr "Visitar sitio web"
+
+#: src/plugin.php
+msgid "Scan & Check Links"
+msgstr "Escanear y verificar enlaces"
+
+#: src/plugin.php
+msgid "Scan your content for links and check their status."
+msgstr "Escanee su contenido en busca de enlaces y verifique su estado."
+
+#: src/plugin.php
+msgid "Previous scan was stopped. You can resume or start fresh."
+msgstr "El escaneo anterior fue detenido. Puede reanudarlo o iniciar uno nuevo."
+
+#: src/plugin.php
+msgid "Resume"
+msgstr "Reanudar"
+
+#: src/plugin.php
+msgid "Start Fresh"
+msgstr "Iniciar de nuevo"
+
+#: src/plugin.php
+msgid "Background process is running..."
+msgstr "El proceso en segundo plano se esta ejecutando..."
+
+#: src/plugin.php
+msgid "Pause"
+msgstr "Pausar"
+
+#: src/plugin.php
+msgid "Stop"
+msgstr "Detener"
+
+#: src/plugin.php
+msgid "Total:"
+msgstr "Total:"
+
+#: src/plugin.php
+msgid "Internal:"
+msgstr "Internos:"
+
+#: src/plugin.php
+msgid "External:"
+msgstr "Externos:"
+
+#: src/plugin.php
+msgid "Checked:"
+msgstr "Verificados:"
+
+#: src/plugin.php
+msgid "Internal"
+msgstr "Internos"
+
+#: src/plugin.php
+msgid "External"
+msgstr "Externos"
+
+#: src/plugin.php
+msgid "Broken:"
+msgstr "Rotos:"
+
+#: src/plugin.php
+msgid "Fixed:"
+msgstr "Corregidos:"
+
+#: src/plugin.php
+msgid "Uncheckable:"
+msgstr "No verificables:"
+
+#: src/plugin.php
+msgid "Skipped:"
+msgstr "Omitidos:"
+
+#: src/plugin.php
+msgid "Total"
+msgstr "Total"
+
+#: src/plugin.php
+msgid "OK"
+msgstr "OK"
+
+#: src/plugin.php
+msgid "Fixed"
+msgstr "Corregido"
+
+#: src/plugin.php
+msgid "Uncheckable"
+msgstr "No verificable"
+
+#: src/plugin.php
+msgid "Skipped"
+msgstr "Omitido"
+
+#: src/plugin.php
+msgid "Clear All Data"
+msgstr "Borrar todos los datos"
+
+#: src/plugin.php
+msgid "All statuses"
+msgstr "Todos los estados"
+
+#: src/plugin.php
+msgid "Pending"
+msgstr "Pendiente"
+
+#: src/plugin.php
+msgid "Search URL or anchor..."
+msgstr "Buscar URL o texto ancla..."
+
+#: src/plugin.php
+msgid "Filter"
+msgstr "Filtrar"
+
+#. context: link type filter
+#: src/plugin.php
+msgctxt "link type filter"
+msgid "All"
+msgstr "Todos"
+
+#. context: link type filter
+#: src/plugin.php
+msgctxt "link type filter"
+msgid "External"
+msgstr "Externos"
+
+#: src/plugin.php
+msgid "Internal 404"
+msgstr "Internos 404"
+
+#: src/plugin.php
+msgid "Bulk Actions"
+msgstr "Acciones masivas"
+
+#: src/plugin.php
+msgid "Use Archive copy"
+msgstr "Usar copia de Archive"
+
+#: src/plugin.php
+msgid "Keep text only"
+msgstr "Conservar solo texto"
+
+#: src/plugin.php
+msgid "Delete completely"
+msgstr "Eliminar completamente"
+
+#: src/plugin.php
+msgid "Skip"
+msgstr "Omitir"
+
+#: src/plugin.php
+msgid "Undo"
+msgstr "Deshacer"
+
+#: src/plugin.php
+msgid "Apply"
+msgstr "Aplicar"
+
+#: src/plugin.php
+msgid "Show:"
+msgstr "Mostrar:"
+
+#. context: per-page selector
+#: src/plugin.php
+msgctxt "per-page selector"
+msgid "All"
+msgstr "Todos"
+
+#: src/plugin.php
+msgid "Tip:"
+msgstr "Consejo:"
+
+#: src/plugin.php
+msgid "For complex pages (Elementor, page builders), it's better to edit directly in the WordPress editor. Use \"Edit Source\" button to open the post."
+msgstr "Para paginas complejas (Elementor, constructores de paginas), es mejor editar directamente en el editor de WordPress. Use el boton \"Editar fuente\" para abrir la entrada."
+
+#: src/plugin.php
+msgid "URL"
+msgstr "URL"
+
+#: src/plugin.php
+msgid "Status"
+msgstr "Estado"
+
+#: src/plugin.php
+msgid "Reason"
+msgstr "Motivo"
+
+#. context: column header
+#: src/plugin.php
+msgctxt "column header"
+msgid "Edit Source"
+msgstr "Editar fuente"
+
+#: src/plugin.php
+msgid "Web Archive"
+msgstr "Web Archive"
+
+#: src/plugin.php
+msgid "Actions"
+msgstr "Acciones"
+
+#: src/plugin.php
+msgid "Run a scan first, then view results here."
+msgstr "Ejecute un escaneo primero, luego vea los resultados aqui."

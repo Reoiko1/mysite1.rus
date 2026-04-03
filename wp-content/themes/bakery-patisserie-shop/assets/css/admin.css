@@ -1,0 +1,734 @@
+.bakery-patisserie-shop-getting-started-notice {
+    padding: 20px 10px;
+}
+.bakery-patisserie-shop-push-down {
+    padding-top: 15px;
+    display: inline-block;
+    padding-left: 8px;
+}
+.bakery-patisserie-shop-theme-notice-content .bakery-patisserie-shop-push-down {
+    padding-top: 0;
+}
+.bakery-patisserie-shop-theme-notice-content .plugin-install-notice{
+    padding: 10px 0;
+}
+.bakery-patisserie-shop-tabcontent {
+    display: none;
+}
+
+.bakery-patisserie-shop-tablinks {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.bakery-patisserie-shop-tablinks.nav-tab-active,
+.bakery-patisserie-shop-tablinks.active {
+    background: #fff;
+}
+.actions.theme-btns{
+    margin: 3em 0 !important;
+}
+/** Theme button css */
+.actions a {
+    display: inline-block;
+    padding: 7px 17px;
+    margin: 8px 12px 8px 0;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 8px;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all 0.2s ease-in-out;
+    color: #fff;
+    position: relative;
+    background: transparent;
+    color: #2271B1;
+    border: 1px solid #2271B1;
+}
+/* On hover: lift effect */
+.actions a:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 3px 0 rgba(0, 0, 0, 0.25);
+}
+
+.about-wrap.full-width-layout {
+    max-width: 100%;
+}
+.about-wrap .about-description,
+.about-wrap .about-text {
+    font-size: 17px;
+}
+.about-wrap h1{
+    margin: 35px 0;
+    font-weight: 600;
+    font-size: 42px;
+}
+.theme-description .about-text {
+    margin: 0;
+}
+.about-wrap h2 {
+    text-align: left;
+}
+.about-theme {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-top: 1.105263157894737em;
+    width: 100%;
+}
+.theme-description,
+.theme-screenshot {
+    width: 100%;
+}
+.theme-screenshot {
+    order: 1;
+}
+.theme-description {
+    margin-top: 1.105263157894737em;
+    order: 2;
+}
+.theme-description .actions {
+    margin-top: 4em;
+    margin-bottom: 3em;
+    text-align: center;
+}
+.col .button {
+    margin-top: 7px;
+}
+.about-wrap h2 {
+    font-size: 19px;
+    font-weight: 600;
+    margin-top: 0;
+}
+.about-wrap .two-col .col {
+    padding: 2em 2em 1em 2em;
+    background-color: #fff;
+    -webkit-flex-basis: 100%;
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    max-width: 100%;
+    min-width: auto;
+}
+pre.changelog {
+    font-size: 13px;
+    background-color: #f5f5f5;
+    border: 1px solid #d4d4d4;
+    display: block;
+    line-height: 19px;
+    margin-bottom: 10px;
+    overflow: visible;
+    overflow-y: visible;
+    overflow-y: hidden;
+    padding: 14px;
+}
+.vs-theme-table table {
+    border-collapse: collapse;
+}
+.vs-theme-table th {
+    border: 1px solid #e0e0e0;
+    padding: 1em;
+}
+.vs-theme-table td {
+    border: 1px solid #e0e0e0;
+    border-collapse: collapse;
+    padding: 0.8em;
+    text-align: center;
+}
+.vs-theme-table .dashicons {
+    font-size: 32px;
+    font-size: 2rem;
+    width: unset;
+    height: unset;
+}
+.vs-theme-table .dashicons-saved {
+    color: #4ca54c;
+}
+.vs-theme-table .dashicons-no-alt {
+    color: #c83842;
+}
+.vs-theme-table tr:nth-child(even) {
+    background-color: #ebebeb;
+}
+.vs-theme-table table {
+    width: 100%;
+}
+.vs-theme-table th:last-child,
+.vs-theme-table th:first-child {
+    width: 33%;
+}
+@media screen and (min-width: 872px) {
+    .about-wrap .two-col .col {
+        -webkit-flex-basis: 50%;
+        -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+        max-width: 97%;
+    }
+    .about-theme,
+    .about-wrap [class$="-col"] {
+        -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    }
+    .about-wrap .theme-description {
+        margin-top: 0;
+        order: 1;
+        padding-right: 2em;
+        width: 70%;
+    }
+    .about-wrap .theme-screenshot {
+        order: 2;
+        width: 30%;
+    }
+}
+.changelog .block {
+    padding: 7px 14px;
+}
+.changelog .block:nth-of-type(odd) {
+    background-color: #e6e6e6;
+}
+.changelog .block:nth-of-type(even) {
+    background-color: #efefef;
+}
+.changelog .block span {
+    display: block;
+    padding: 2px;
+}
+.col input#myInput {
+    border: none;
+    width: 80px;
+}
+/*demo import css*/
+.col.card.demo-btn{
+    position: relative;
+    margin-top: 20px;
+    text-align: center;
+    padding: 5em 10em;
+    min-width: 60%;
+    max-width: 687px;
+    border: none;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .04);
+    background: #fff;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+}
+.demo-button-three{
+    display: flex;
+    gap: 15px;
+}
+.col.card.success-demo  .demo-button-three a.button-primary{
+    padding: 5px 18px;
+    font-size: 17px;
+}
+.col.card.success-demo {
+    position: relative;
+    margin-top: 20px;
+    text-align: center;
+    padding: 3em;
+    min-width: 935px;
+    max-width: 724px;
+    height: 380px;
+    border: 1px solid #c3c4c7;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .04);
+    background: #fff;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.col.card.demo-btn .demo-title{
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+.col.card.demo-btn .demo-des{
+    font-size: 16px;
+    margin: 28px 0;
+}
+.imp-success{
+    font-size: 20px !important;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.actions{
+    display: flex;
+    align-items: center;
+}
+.bakery-patisserie-shop-tablinks.active {
+    background: #fff !important;
+}
+
+.col.card.demo-btn input.button.button-primary, 
+.col.card.success-demo .button-primary {
+    font-weight: 600;
+    font-size: 18px;
+    padding: 10px 20px;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    border-radius: 8px;
+    background: linear-gradient(145deg, #4a90e2, #357ab8); /* Blue gradient */
+    border: 1px solid #357ab8;
+    box-shadow: 0px 5px 0px #2e6791, 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.col.card.demo-btn input.button.button-primary:hover, 
+.col.card.success-demo .button-primary:hover {
+    background: linear-gradient(145deg, #357ab8, #4a90e2);
+    border-color: #2e6791;
+    box-shadow: 0px 2px 0px #2e6791, 0px 5px 10px rgba(0, 0, 0, 0.3);
+    transform: translateY(3px);
+}
+.col.card a, .col .button, a.view-demo-btn,a.view-dashboard{
+    font-weight: 600;
+    font-size: 16px;
+    padding: 8px 20px;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    border-radius: 4px;
+    background: linear-gradient(145deg, #4a90e2, #357ab8); /* Blue gradient */
+    border: 1px solid #357ab8;
+    box-shadow: 0px 3px 0px #2e6791, 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+a.view-demo-btn{
+    padding: 8px 55px;
+}
+#demo-success-modal button{
+    border: none;
+}
+.col.card a:hover,.col .button:hover, a.view-demo-btn:hover, a.view-dashboard:hover,.detail-theme a:hover,
+.row-top a.bakery-patisserie-shop-btn-get-started.button.button-primary.button-hero.bakery-patisserie-shop-button-padding:hover {
+    background: linear-gradient(145deg, #357ab8, #4a90e2);
+    border-color: #2e6791;
+    box-shadow: 0px 2px 0px #2e6791, 0px 5px 10px rgba(0, 0, 0, 0.3);
+    transform: translateY(3px);
+    color: #fff;
+}
+.wp-core-ui .button-primary.demo{
+    background-color: #46b122;
+    border-color: #59b21b;
+}
+.wp-core-ui .button-primary.demo:hover{
+    background-color: #4f8429;
+}
+
+/* Loader Spinner inside Button */
+#demo-success-modal h2{
+    text-align: center;
+    font-size: 22px;
+}
+#page-loader {
+    display: block;
+    vertical-align: middle;
+}
+#page-loader img {
+    width: 20px !important;
+    height: 20px !important;
+    animation: spin 1s linear infinite;
+}
+/* Spinning animation */
+@keyframes spin {
+    0% { 
+        transform: rotate(0deg); 
+    }
+    100% { 
+        transform: rotate(360deg); 
+    }
+}
+
+/* Preloader for plugin installation area */
+#plugin-loader img {
+    border: 8px solid #f3f3f3; /* Light grey */
+    border-top: 8px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 60px !important;
+    height: 60px !important;
+    animation: spin 1s linear infinite;
+}
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Preloader background */
+#plugin-loader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    z-index: 9999;
+}
+
+
+/*banner*/
+.bundle-offer-wrapper {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 6px;
+}
+
+.bundle-offer-wrapper img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.bundle-offer-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+}
+
+.bundle-offer-content h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.bundle-offer-content .button {
+    font-size: 18px;
+    padding: 12px 30px;
+}
+
+/*notice css*/
+.bakery-patisserie-shop-getting-started-notice{
+    padding: 10px 30px 0;
+}
+.bakery-patisserie-shop-notice-wrapper.updated.notice.notice-get-started-class.is-dismissible{
+    border: none;
+    border-left: 4px solid #2271B1;
+    padding: 10px 30px;
+}
+.row-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.row-top a.bakery-patisserie-shop-btn-get-started.button.button-primary.button-hero.bakery-patisserie-shop-button-padding,
+.detail-theme a{
+    font-weight: 500;
+    font-size: 15px;
+    padding: 10px 20px;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    border-radius: 6px;
+    background: linear-gradient(145deg, #4a90e2, #357ab8);
+    border: 1px solid #357ab8;
+    box-shadow: 0px 4px 0px #2e6791, 0px 10px 20px rgba(0, 0, 0, 0.2);
+    line-height: normal;
+}
+.row-top .image-box img{
+    width: 480px;
+    height: 220px;
+    object-fit: cover;
+    margin-bottom: -13px;
+    box-shadow: 0 4px 6px -2px rgba(0, 0, 0, 0.5);
+}
+h2.bakery-patisserie-shop-notice-h2 {
+    margin: 0 0 30px;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 1.4;
+    width: 500px;
+    color: #1D232D;
+}
+.detail-theme{
+    background-color: #fff;
+    padding: 2em;
+}
+#demo-success-modal img{
+    width: 50px !important;
+    height: 50px !important;
+}
+.detail-theme a{
+    font-weight: 600;
+    margin-right: 16px;
+    letter-spacing: 0.5px;
+    font-size: 14px;
+    padding: 6px 20px;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    border-radius: 6px;
+    background: linear-gradient(145deg, #4a90e2, #357ab8);
+    border: 1px solid #357ab8;
+    box-shadow: 0px 3px 0px #2e6791, 0px 10px 20px rgba(0, 0, 0, 0.2);
+    line-height: normal;
+}
+.detail-theme h2{
+    font-size: 22px;
+    font-weight: 500;
+    margin: 0 0 20px;
+}
+.bakery-patisserie-shop-notice-wrapper.notice.notice-success.is-dismissible.about-page{
+    border: none;
+}
+.theme-main-bundle img{
+    width: 780px !important;
+    height: 350px !important;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    margin-bottom: 20px;
+}
+.bundle-link{
+    text-align: center;
+    width: 780px;
+}
+a.button.button-primary.bundle-btn{
+     font-weight: 600;
+    font-size: 16px;
+    padding: 8px 20px;
+    display: inline-block;
+    text-align: center;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    border-radius: 2px;
+    background: linear-gradient(145deg, #4a90e2, #357ab8); /* Blue gradient */
+    border: 1px solid #357ab8;
+    box-shadow: 0px 5px 0px #2e6791, 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+.content-row, .price-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.price-flex{
+    align-items: center;
+}
+p.about-text.content {
+    padding: 10px;
+    background: #fff;
+    color: #000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+nav.nav-tab-wrapper.wp-clearfix{
+    background: transparent !important;
+}
+.feature-section.two-col{
+    max-width: 62%;
+}
+.change-log{
+    width: 60%;
+}
+.theme-price{
+    max-width: 38% !important;
+    background: #fff;
+    padding: 1em;
+    height: 335px;
+    position: relative;
+    border: none;
+}
+.main-pro-price {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100%;
+    bottom: auto;
+}
+.theme-price .price-img img{
+    height: 310px !important;
+}
+.price-img{
+    width: 50%;
+}
+.price-content{
+    width: 45%;
+}
+a.pro-btn-theme.price-pro{
+    display: block;
+    padding: 13px 19px;
+}
+.price-content h3{
+    font-size: 20px;
+    margin-top: 0;
+    font-weight: 700;
+}
+.price-content .bold-text{
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.price-content .bold-price{
+font-weight: 700;
+    font-size: 25px;
+}
+.main-flash{
+    font-size: 14px;
+    font-weight: 400;
+}
+nav.nav-tab-wrapper.wp-clearfix {
+    margin-bottom: 15px;
+    margin-top: 30px;
+    width: fit-content;
+}
+.about-wrap img{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/*close css*/
+.detail-theme {
+    position: relative;
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+.detail-theme .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: transparent;
+    border: none;
+    font-size: 12px;
+    font-weight: 400;
+    color: #2271BE;
+    cursor: pointer;
+    transition: color 0.2s ease-in-out;
+}
+.detail-theme .close-btn:hover {
+    color: #000;
+}
+@media screen and (min-width: 999px) and (max-width: 1024px){
+    .about-wrap .nav-tab, .about-wrap .about-description, .about-wrap .about-text{
+        font-size: 12px;
+    }
+    .actions a{
+        padding: 7px 14px;
+        font-size: 12px;
+    }
+    .theme-description .actions{
+        margin-top: 2em;
+    }
+    h2.bakery-patisserie-shop-notice-h2{
+        width: 300px;
+    }
+    .row-top .image-box img{
+        width: 220px;
+        object-fit: contain;
+    }
+    h2.bakery-patisserie-shop-notice-h2{
+        font-size: 16px;
+    }
+    .col.card.demo-btn{
+        padding: 2em;
+    }
+    .col.card.demo-btn{
+        max-width: 495px;
+    }
+    .col.card a, .col .button, a.view-demo-btn, a.view-dashboard{
+        font-size: 12px;
+    }
+    .theme-main-bundle img{
+        width: 700px !important;
+    }
+}
+
+/* ===============================
+   Demo Import Success Popup
+================================ */
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    display: none;
+    z-index: 99999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-content {
+    background: #ffffff;
+    padding: 35px 30px;
+    border-radius: 10px;
+    max-width: 460px;
+    width: 90%;
+    text-align: center;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25);
+    animation: popupZoom 0.4s ease;
+}
+
+/* Image */
+.modal-content img {
+    max-width: 90px;
+    margin-bottom: 15px;
+}
+
+/* Heading */
+.modal-content h2 {
+    font-size: 22px;
+    line-height: 1.4;
+    margin-bottom: 20px;
+    color: #1d2327; /* WP admin color */
+    font-weight: 600;
+}
+
+/* Buttons */
+.modal-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.modal-buttons .button {
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+/* Animation */
+@keyframes popupZoom {
+    from {
+        transform: scale(0.8);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+    .modal-content {
+        padding: 25px 20px;
+    }
+    .modal-content h2 {
+        font-size: 18px;
+    }
+}
+
+.theme-bakery-patisserie-shop #wpfooter{
+    position: static !important;
+    margin-left: 0 !important;
+}

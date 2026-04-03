@@ -1,0 +1,39 @@
+2026-03-31T08:50:25+00:00 DEBUG #3903 - [New Request] GET /wp-admin/admin.php
+2026-03-31T08:50:25+00:00 DEBUG #3903 - GET https://api.woocommerce.com/integrations/ppc/v1/customer/partners/K8SKZ36LQBWXJ/merchant-integrations/
+Response: Array
+(
+    [code] => 404
+    [message] => Not Found
+)
+
+Response Body: {"statusCode":404,"error":"Not Found","message":"Not Found"}
+
+2026-03-31T08:50:25+00:00 WARNING #3903 - [Error] Not Found CONTEXT: {"args":{"method":"GET","headers":{"Authorization":"Bearer token","Content-Type":"application/json"}},"response":{"headers":{},"body":"{"statusCode":404,"error":"Not Found","message":"Not Found"}","response":{"code":404,"message":"Not Found"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}}}
+2026-03-31T08:50:31+00:00 DEBUG #9523 - [New Request] GET /wp-json/wc/v3/wc_paypal/webhooks
+2026-03-31T08:50:31+00:00 DEBUG #9523 - GET https://api.woocommerce.com/integrations/ppc/v1/notifications/webhooks
+Response: Array
+(
+    [code] => 404
+    [message] => Not Found
+)
+
+Response Body: {"statusCode":404,"error":"Not Found","message":"Not Found"}
+
+2026-03-31T08:50:41+00:00 DEBUG #9303 - [New Request] POST /wp-json/wc/v3/wc_paypal/login_link
+2026-03-31T08:50:41+00:00 INFO #9303 - Generating onboarding URL for: production-advanced_vaulting-express_checkout-
+2026-03-31T08:50:42+00:00 DEBUG #9303 - POST https://api.woocommerce.com/integrations/ppc/v2/customer/partner-referrals
+Request Body: {"partner_config_override":{"return_url":"http:\/\/mysite1.rus\/wp-admin\/admin.php?page=wc-settings&tab=checkout&section=ppcp-gateway&ppcpToken=eyJrIjoicHJvZHVjdGlvbi1hZHZhbmNlZF92YXVsdGluZy1leHByZXNzX2NoZWNrb3V0LSIsInUiOjEsImgiOiJhN2M1MGJiMzg4NzIyNDJhYWY1NjEwZjU4ZTI1NWU3NCJ9","return_url_description":"Return to your shop.","show_add_credit_card":false},"products":["PPCP","ADVANCED_VAULTING"],"capabilities":["PAYPAL_WALLET_VAULTING_ADVANCED"],"legal_consents":[{"type":"SHARE_DATA_CONSENT","granted":true}],"operations":[{"operation":"API_INTEGRATION","api_integration_preference":{"rest_api_integration":{"integration_method":"PAYPAL","integration_type":"FIRST_PARTY","first_party_details":{"features":["PAYMENT","REFUND","ADVANCED_TRANSACTIONS_SEARCH","TRACKING_SHIPMENT_READWRITE","BILLING_AGREEMENT"],"seller_nonce":"a1233wtergfsdt4365tzrshgfbaewa36AGa1233wtergfsdt4365tzrshgfbaewa36AG"}}}}]}
+Response Debug ID: 43877047ea4c3
+Response: Array
+(
+    [code] => 201
+    [message] => Created
+)
+
+
+2026-03-31T08:50:44+00:00 DEBUG #9001 - [New Request] POST /wp-json/wc/v3/wc_paypal/login_link
+2026-03-31T08:50:44+00:00 DEBUG #9001 - Loaded onboarding URL from cache: production-advanced_vaulting-express_checkout-
+2026-03-31T08:50:44+00:00 INFO #9001 - Using cached onboarding URL for: production-advanced_vaulting-express_checkout-
+2026-03-31T08:50:44+00:00 DEBUG #6780 - [New Request] POST /wp-json/wc/v3/wc_paypal/login_link
+2026-03-31T08:50:44+00:00 DEBUG #6780 - Loaded onboarding URL from cache: production-advanced_vaulting-express_checkout-
+2026-03-31T08:50:44+00:00 INFO #6780 - Using cached onboarding URL for: production-advanced_vaulting-express_checkout-

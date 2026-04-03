@@ -1,0 +1,511 @@
+# Translation of Plugins - IfElse Pages – Coming Soon and Maintenance Mode - Stable (latest release) in Russian
+# This file is distributed under the same license as the Plugins - IfElse Pages – Coming Soon and Maintenance Mode - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2026-03-29 14:00:32+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.3\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - IfElse Pages – Coming Soon and Maintenance Mode - Stable (latest release)\n"
+
+#: templates/maintenance/warning.php:88
+msgid "Service temporarily unavailable"
+msgstr "Сайт временно недоступен"
+
+#. translators: %d: number of hours
+#: templates/maintenance/warning.php:73
+msgid "We expect to be back in approximately %d hour."
+msgid_plural "We expect to be back in approximately %d hours."
+msgstr[0] "Рассчитываем завершить работы примерно через %d час."
+msgstr[1] "Рассчитываем завершить работы примерно через %d часа."
+msgstr[2] "Рассчитываем завершить работы примерно через %d часов."
+
+#: templates/landing/contact.php:200
+msgid "Send Message"
+msgstr "Отправить сообщение"
+
+#: templates/landing/contact.php:195
+msgid "How can we help you?"
+msgstr "Чем мы можем вам помочь?"
+
+#: templates/landing/contact.php:191
+msgid "Message"
+msgstr "Сообщение"
+
+#: templates/landing/contact.php:185
+msgid "your@email.com"
+msgstr "vasha@pochta.ru"
+
+#: templates/landing/contact.php:180
+msgid "Email"
+msgstr "Email"
+
+#: templates/landing/contact.php:174
+msgid "Your name"
+msgstr "Ваше имя"
+
+#: templates/landing/contact.php:169
+msgid "Name"
+msgstr "Имя"
+
+#: templates/landing/contact.php:164
+msgid "Leave this blank"
+msgstr "Оставить пустым"
+
+#: templates/landing/contact.php:138
+msgid "Get in Touch"
+msgstr "Форма связи"
+
+#: templates/landing/contact.php:94
+msgid "Please fill in all fields with a valid email address."
+msgstr "Заполните все поля, указав действительный адрес электронной почты."
+
+#. translators: 1: sender name, 2: site name
+#: templates/landing/contact.php:73
+msgid "Contact from %1$s via %2$s"
+msgstr "Сообщение от %1$s из формы связи на %2$s"
+
+#: templates/landing/contact.php:60 templates/landing/contact.php:92
+msgid "Your message has been sent. We will get back to you soon!"
+msgstr "Ваше сообщение отправлено."
+
+#: templates/coming-soon/mystry.php:53
+msgid "✦ Something new is coming ✦"
+msgstr "✦ Ожидается обновление ✦"
+
+#: public/class-ifelsepages-frontend.php:176 templates/coming-soon/dark.php:83
+msgid "Seconds"
+msgstr "Секунды"
+
+#: public/class-ifelsepages-frontend.php:175 templates/coming-soon/dark.php:78
+msgid "Minutes"
+msgstr "Минуты"
+
+#: public/class-ifelsepages-frontend.php:174 templates/coming-soon/dark.php:73
+msgid "Hours"
+msgstr "Часы"
+
+#: public/class-ifelsepages-frontend.php:173 templates/coming-soon/dark.php:68
+msgid "Days"
+msgstr "Дни"
+
+#: ifelse-pages-coming-soon-and-maintenance-mode.php:491
+msgid "IfElse Pages is active — visitors see this page. Click to manage."
+msgstr "IfElse Pages активен — посетители видят эту страницу. Нажмите, чтобы настроить."
+
+#: ifelse-pages-coming-soon-and-maintenance-mode.php:483
+msgid "Active"
+msgstr "Активен"
+
+#: ifelse-pages-coming-soon-and-maintenance-mode.php:377
+msgid "Portfolio"
+msgstr "Портфолио"
+
+#: ifelse-pages-coming-soon-and-maintenance-mode.php:370
+msgid "Branded mini-page with optional contact form hook."
+msgstr "Фирменная мини-страница с опциональной контактной формой."
+
+#: ifelse-pages-coming-soon-and-maintenance-mode.php:369
+msgid "Contact"
+msgstr "Контакт"
+
+#: ifelse-pages-coming-soon-and-maintenance-mode.php:360
+msgid "Tech Dark"
+msgstr "Техничный тёмный"
+
+#: ifelse-pages-coming-soon-and-maintenance-mode.php:353
+msgid "Neutral technical style, 503 header, no countdown."
+msgstr "Нейтральный технический стиль, заголовок 503, обратный отсчёт не отображается."
+
+#: ifelse-pages-coming-soon-and-maintenance-mode.php:352
+msgid "Warning"
+msgstr "Предупреждение"
+
+#: ifelse-pages-coming-soon-and-maintenance-mode.php:343
+msgid "Minimal White"
+msgstr "Минималистичный белый"
+
+#: ifelse-pages-coming-soon-and-maintenance-mode.php:338
+#: ifelse-pages-coming-soon-and-maintenance-mode.php:344
+#: ifelse-pages-coming-soon-and-maintenance-mode.php:361
+#: ifelse-pages-coming-soon-and-maintenance-mode.php:378
+msgid "Coming soon in a future update."
+msgstr "Скоро появится в одном из будущих обновлений."
+
+#: ifelse-pages-coming-soon-and-maintenance-mode.php:337
+msgid "Neon Glow"
+msgstr "Неоновый"
+
+#: ifelse-pages-coming-soon-and-maintenance-mode.php:330
+msgid "Colorful, playful layout with optional email capture."
+msgstr "Яркий, игривый макет с возможностью оставить адрес электронной почты."
+
+#: ifelse-pages-coming-soon-and-maintenance-mode.php:329
+msgid "Mystry"
+msgstr "Таинственный"
+
+#: ifelse-pages-coming-soon-and-maintenance-mode.php:322
+msgid "Dark background, large countdown, centered logo."
+msgstr "Тёмный фон, большой таймер, логотип по центру."
+
+#: ifelse-pages-coming-soon-and-maintenance-mode.php:321
+msgid "Dark"
+msgstr "Тёмный"
+
+#: admin/class-ifelsepages-settings.php:845
+msgid "Save Settings"
+msgstr "Сохранить настройки"
+
+#: admin/class-ifelsepages-settings.php:838
+msgid "A highlighted notice appears in the WordPress admin bar when the plugin is active, reminding you the page is live."
+msgstr "Когда заглушка активна, в верхней панели администратора WordPress отображается уведомление."
+
+#: admin/class-ifelsepages-settings.php:836
+msgid "Show active-mode badge in admin bar (admins only)"
+msgstr "Отображать значок активного режима в админке (только для администраторов)"
+
+#: admin/class-ifelsepages-settings.php:825
+msgid "Meta Description"
+msgstr "Мета-описание"
+
+#: admin/class-ifelsepages-settings.php:821
+msgid "Defaults to the Title field above if left blank."
+msgstr "Если поле не заполнено, по умолчанию используется поле «Заголовок» выше."
+
+#: admin/class-ifelsepages-settings.php:818
+msgid "Meta Title"
+msgstr "Мета-заголовок"
+
+#: admin/class-ifelsepages-settings.php:807
+msgid "always"
+msgstr "всегда"
+
+#: admin/class-ifelsepages-settings.php:796
+msgid "Users with these roles will always see the real site. Administrator is always bypassed."
+msgstr "Пользователи с этими ролями будут иметь доступ к сайту как обычно."
+
+#: admin/class-ifelsepages-settings.php:795
+msgid "Bypass Roles"
+msgstr "Обход ролей"
+
+#: admin/class-ifelsepages-settings.php:779
+msgid "Upload / Select Image"
+msgstr "Загрузить/выбрать изображение"
+
+#: admin/class-ifelsepages-settings.php:771
+msgid "Overrides the background colour when set."
+msgstr "Переопределяет цвет фона при установке."
+
+#: admin/class-ifelsepages-settings.php:770
+msgid "Background Image"
+msgstr "Фоновое изображение"
+
+#: admin/class-ifelsepages-settings.php:763
+msgid "Background Colour"
+msgstr "Цвет фона"
+
+#: admin/class-ifelsepages-settings.php:747
+msgid "Upload / Select Logo"
+msgstr "Загрузить/выбрать логотип"
+
+#: admin/class-ifelsepages-settings.php:739
+msgid "Logo"
+msgstr "Логотип"
+
+#: admin/class-ifelsepages-settings.php:735
+msgid "© 2025 My Company"
+msgstr "© 2026 VashaKompaniya"
+
+#: admin/class-ifelsepages-settings.php:732
+msgid "Footer Text"
+msgstr "Текст в подвале"
+
+#: admin/class-ifelsepages-settings.php:727
+msgid "Description"
+msgstr "Описание"
+
+#: admin/class-ifelsepages-settings.php:721
+msgid "Title"
+msgstr "Заголовок"
+
+#: admin/class-ifelsepages-settings.php:713
+#: ifelse-pages-coming-soon-and-maintenance-mode.php:452
+msgid "Settings"
+msgstr "Настройки"
+
+#: admin/class-ifelsepages-settings.php:710
+msgid "Design"
+msgstr "Дизайн"
+
+#: admin/class-ifelsepages-settings.php:707
+msgid "Content"
+msgstr "Содержимое"
+
+#: admin/class-ifelsepages-settings.php:698
+msgid "Leave blank to use the site admin email. Built-in form submissions will be sent here."
+msgstr "Оставьте поле пустым, чтобы использовать адрес электронной почты администратора сайта. На него будут отправляться сообщения, отправленные через встроенную форму."
+
+#: admin/class-ifelsepages-settings.php:692
+msgid "Notification Email"
+msgstr "Письмо с уведомлением"
+
+#: admin/class-ifelsepages-settings.php:689
+msgid "Paste the shortcode from your form plugin. Falls back to built-in form if empty."
+msgstr "Вставьте шорткод из своего плагина для создания форм. Если поле пустое, используется встроенная форма."
+
+#: admin/class-ifelsepages-settings.php:688
+msgid "[contact-form-7 id=\"123\"]"
+msgstr "[contact-form-7 id=\"123\"]"
+
+#: admin/class-ifelsepages-settings.php:683
+msgid "Form Shortcode"
+msgstr "Шорткод контактной формы"
+
+#: admin/class-ifelsepages-settings.php:680
+msgid "Shortcode: Accepts any shortcode from Contact Form 7, WPForms, Ninja Forms, or other form plugins."
+msgstr "Шорткод: поддерживает любые шорткоды из Contact Form 7, WPForms, Ninja Forms и других плагинов для создания форм."
+
+#: admin/class-ifelsepages-settings.php:677
+msgid "Custom Form (Coming in Next Update)"
+msgstr "Настраиваемая форма (появится в следующем обновлении)"
+
+#: admin/class-ifelsepages-settings.php:670
+msgid "Shortcode"
+msgstr "Шорткод"
+
+#: admin/class-ifelsepages-settings.php:663
+msgid "Built-in Form"
+msgstr "Встроенная форма"
+
+#: admin/class-ifelsepages-settings.php:656
+msgid "Contact Form Source"
+msgstr "Источник контактной формы"
+
+#: admin/class-ifelsepages-settings.php:654
+msgid "Contact Template"
+msgstr "Шаблон контактной формы"
+
+#. translators: %s: human-readable date/time
+#: admin/class-ifelsepages-settings.php:641
+msgid "Scheduled to auto-disable at: %s"
+msgstr "Запланировано автоматическое отключение %s"
+
+#: admin/class-ifelsepages-settings.php:631
+msgid "Automatically turn off the maintenance mode after selected time ends"
+msgstr "Автоматическое отключение режима обслуживания по истечении выбранного времени"
+
+#: admin/class-ifelsepages-settings.php:624
+msgid "Keep the time as is"
+msgstr "Следить за временем, как есть"
+
+#: admin/class-ifelsepages-settings.php:617
+msgid "When the estimated time ends:"
+msgstr "По истечении расчётного времени:"
+
+#: admin/class-ifelsepages-settings.php:608
+msgid "Estimated Hours Until Back"
+msgstr "Расчётное количество часов до отключения заглушки"
+
+#: admin/class-ifelsepages-settings.php:600
+msgid "Show estimated return time"
+msgstr "Показать расчётное время возврата"
+
+#: admin/class-ifelsepages-settings.php:591
+msgid "Warning Template"
+msgstr "Шаблон предупреждения"
+
+#: admin/class-ifelsepages-settings.php:584
+msgid "Open in New Tab"
+msgstr "Открывать в новой вкладке"
+
+#: admin/class-ifelsepages-settings.php:575
+msgid "Button will be hidden if URL is empty."
+msgstr "Кнопка будет скрыта, если URL пуст."
+
+#: admin/class-ifelsepages-settings.php:574
+msgid "https://example.com/contact"
+msgstr "https://primer.ru/kontakt"
+
+#: admin/class-ifelsepages-settings.php:569
+msgid "Button URL"
+msgstr "URL кнопки"
+
+#: admin/class-ifelsepages-settings.php:566
+msgid "Contact Us"
+msgstr "Связаться с нами"
+
+#: admin/class-ifelsepages-settings.php:561
+msgid "Button Text"
+msgstr "Текст кнопки"
+
+#: admin/class-ifelsepages-settings.php:559
+msgid "Mystry Template"
+msgstr "Таинственный шаблон"
+
+#: admin/class-ifelsepages-settings.php:549
+msgid "Turn off the Coming Soon mode automatically"
+msgstr "Автоматически отключить заглушку"
+
+#: admin/class-ifelsepages-settings.php:542
+msgid "Hide the countdown"
+msgstr "Скрыть таймер"
+
+#: admin/class-ifelsepages-settings.php:535
+msgid "When the date/time is reached:"
+msgstr "По достижении указанной даты/времени:"
+
+#: admin/class-ifelsepages-settings.php:529
+msgid "Change in Settings →"
+msgstr "Изменить в настройках →"
+
+#. translators: %s: timezone identifier e.g. "UTC+5" or "America/New_York"
+#: admin/class-ifelsepages-settings.php:523
+msgid "Timezone: %s"
+msgstr "Часовой пояс: %s"
+
+#: admin/class-ifelsepages-settings.php:503
+msgid "Current time on this site:"
+msgstr "Текущее время на сайте:"
+
+#: admin/class-ifelsepages-settings.php:498
+msgid "Required when plugin is active. Must be a future date/time."
+msgstr "Требуется при активном плагине. Должно быть указано время в будущем."
+
+#: admin/class-ifelsepages-settings.php:492
+msgid "Launch / End Date &amp; Time"
+msgstr "Дата и время окончания"
+
+#: admin/class-ifelsepages-settings.php:484
+msgid "Enable Countdown Timer"
+msgstr "Включить таймер"
+
+#: admin/class-ifelsepages-settings.php:475
+msgid "Dark Template"
+msgstr "Тёмный шаблон"
+
+#: admin/class-ifelsepages-settings.php:471
+msgid "Options for the currently selected template."
+msgstr "Параметры выбранного шаблона."
+
+#: admin/class-ifelsepages-settings.php:470
+msgid "Template Options"
+msgstr "Настройки шаблона"
+
+#: admin/class-ifelsepages-settings.php:417
+msgid "Each mode remembers its own template selection."
+msgstr "Каждый режим запоминает выбранный шаблон."
+
+#: admin/class-ifelsepages-settings.php:416
+msgid "Choose Template"
+msgstr "Выбор шаблона"
+
+#: admin/class-ifelsepages-settings.php:397
+#: ifelse-pages-coming-soon-and-maintenance-mode.php:480
+msgid "Landing Page"
+msgstr "Страница захвата"
+
+#: admin/class-ifelsepages-settings.php:396
+#: ifelse-pages-coming-soon-and-maintenance-mode.php:479
+msgid "Maintenance"
+msgstr "Техобслуживание"
+
+#: admin/class-ifelsepages-settings.php:391
+msgid "Page Mode"
+msgstr "Режим заглушки"
+
+#: admin/class-ifelsepages-settings.php:371
+msgid "Enable Plugin"
+msgstr "Включить заглушку"
+
+#: admin/class-ifelsepages-settings.php:354
+msgid "Settings saved successfully."
+msgstr "Настройки успешно сохранены."
+
+#: admin/class-ifelsepages-settings.php:349
+msgid "Coming Soon · Maintenance · Landing Page"
+msgstr "Скоро будет · Техобслуживание · Страница захвата"
+
+#: admin/class-ifelsepages-settings.php:182
+msgid "The countdown date must be in the future (Dark template)."
+msgstr "Дата обратного отсчёта должна находиться в будущем (тёмный шаблон)."
+
+#: admin/class-ifelsepages-settings.php:180
+msgid "Please set a date/time for the countdown (Dark template)."
+msgstr "Укажите дату и время для обратного отсчёта (тёмный шаблон)."
+
+#: admin/class-ifelsepages-settings.php:120
+msgid "Unauthorised."
+msgstr "Не санкционировано."
+
+#: admin/class-ifelsepages-settings.php:108
+msgid "The countdown date must be in the future."
+msgstr "Дата обратного отсчёта должна находиться в будущем."
+
+#: admin/class-ifelsepages-settings.php:107
+msgid "Please set a future date/time for the countdown."
+msgstr "Укажите грядущую дату и время для обратного отсчёта."
+
+#: admin/class-ifelsepages-settings.php:101
+#: admin/class-ifelsepages-settings.php:395
+#: admin/class-ifelsepages-settings.php:440
+#: ifelse-pages-coming-soon-and-maintenance-mode.php:478
+msgid "Coming Soon"
+msgstr "Скоро будет"
+
+#: admin/class-ifelsepages-settings.php:100
+#: admin/class-ifelsepages-settings.php:383
+msgid "Inactive – site is publicly visible"
+msgstr "Неактивен – заглушка не включена"
+
+#: admin/class-ifelsepages-settings.php:99
+#: admin/class-ifelsepages-settings.php:381
+msgid "Active – visitors see your page"
+msgstr "Активно – посетители видят заглушку"
+
+#: admin/class-ifelsepages-settings.php:98
+#: admin/class-ifelsepages-settings.php:751
+#: admin/class-ifelsepages-settings.php:783
+msgid "Remove"
+msgstr "Удалить"
+
+#: admin/class-ifelsepages-settings.php:97
+msgid "Use this image"
+msgstr "Использовать это изображение"
+
+#: admin/class-ifelsepages-settings.php:96
+msgid "Select Image"
+msgstr "Выбрать изображение"
+
+#: admin/class-ifelsepages-settings.php:34
+#: admin/class-ifelsepages-settings.php:35
+#: admin/class-ifelsepages-settings.php:346
+msgid "IfElse Pages"
+msgstr "IfElse Pages"
+
+#. Author URI of the plugin
+#: ifelse-pages-coming-soon-and-maintenance-mode.php
+msgid "https://zulkaif.com/"
+msgstr "https://zulkaif.com/"
+
+#. Author of the plugin
+#: ifelse-pages-coming-soon-and-maintenance-mode.php
+msgid "Zulkaif Riaz"
+msgstr "Zulkaif Riaz"
+
+#. Description of the plugin
+#: ifelse-pages-coming-soon-and-maintenance-mode.php
+msgid "A lightweight plugin to display Coming Soon, Maintenance, or Landing Page screens to visitors."
+msgstr "Лёгкий плагин для отображения во внешней части сайте заглушки «Скоро», «В работе» или «Страница захвата»."
+
+#. Plugin URI of the plugin
+#: ifelse-pages-coming-soon-and-maintenance-mode.php
+msgid "https://zulkaif.com/ifelse.html"
+msgstr "https://zulkaif.com/ifelse.html"
+
+#. Plugin Name of the plugin
+#: ifelse-pages-coming-soon-and-maintenance-mode.php
+msgid "IfElse Pages – Coming Soon and Maintenance Mode"
+msgstr "IfElse Pages – Coming Soon and Maintenance Mode"

@@ -1,0 +1,15 @@
+# Copyright (C) 2026 Archivarix
+# This file is distributed under the same license as the Archivarix Broken Links Recovery plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Archivarix Broken Links Recovery 1.0.0\n"
+"Report-Msgid-Bugs-To: https://archivarix.com/\n"
+"POT-Creation-Date: 2026-02-14 00:00:00+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: none\n"
+"X-Domain: archivarix-broken-links-recovery\n"

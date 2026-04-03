@@ -1,0 +1,595 @@
+# Russian translation for Archivarix Broken Links Recovery plugin.
+# Copyright (C) 2026 Archivarix
+# This file is distributed under the same license as the Archivarix Broken Links Recovery plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Archivarix Broken Links Recovery 1.0.0\n"
+"Report-Msgid-Bugs-To: https://archivarix.com/\n"
+"POT-Creation-Date: 2026-02-14 00:00:00+00:00\n"
+"PO-Revision-Date: 2026-03-11 00:00:00+00:00\n"
+"Last-Translator: \n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: none\n"
+"X-Domain: archivarix-broken-links-recovery\n"
+
+#: 1
+msgid "Internal link checking was enabled after the scan started. Internal links were not collected during extraction. Please start a new scan to check internal links."
+msgstr "Проверка внутренних ссылок была включена после начала сканирования. Внутренние ссылки не были собраны во время извлечения. Пожалуйста, запустите новое сканирование для проверки внутренних ссылок."
+
+#: 2
+msgid "Archivarix Broken Links Recovery"
+msgstr "Archivarix Восстановление битых ссылок"
+
+#: 3
+msgid "Broken Links Recovery"
+msgstr "Восстановление битых ссылок"
+
+#: 4
+msgid "Scanning..."
+msgstr "Сканирование..."
+
+#: 5
+msgid "Start Scan"
+msgstr "Начать сканирование"
+
+#: 6
+msgid "Scan started"
+msgstr "Сканирование начато"
+
+#: 7
+msgid "Scan resumed"
+msgstr "Сканирование возобновлено"
+
+#: 8
+msgid "Scan complete!"
+msgstr "Сканирование завершено!"
+
+#: 9
+msgid "Scan paused."
+msgstr "Сканирование приостановлено."
+
+#: 10
+msgid "Scan stopped."
+msgstr "Сканирование остановлено."
+
+#: 11
+msgid "Error"
+msgstr "Ошибка"
+
+#: 12
+msgid "Start processing?"
+msgstr "Начать обработку?"
+
+#: 13
+msgid "Pause the scan? You can resume it later."
+msgstr "Приостановить сканирование? Вы сможете возобновить его позже."
+
+#: 14
+msgid "Stop the scan completely? You will not be able to resume — only start a new scan."
+msgstr "Полностью остановить сканирование? Вы не сможете возобновить его — только начать новое сканирование."
+
+#: 15
+msgid "Are you sure you want to restart from the beginning? Already checked links will be skipped (cached)."
+msgstr "Вы уверены, что хотите начать сначала? Уже проверенные ссылки будут пропущены (закешированы)."
+
+#: 16
+msgid "Are you sure you want to clear all data? This cannot be undone."
+msgstr "Вы уверены, что хотите очистить все данные? Это действие нельзя отменить."
+
+#: 17
+msgid "All data cleared."
+msgstr "Все данные очищены."
+
+#: 18
+msgid "No links selected."
+msgstr "Ссылки не выбраны."
+
+#: 19
+msgid "Enter replacement URL:"
+msgstr "Введите URL для замены:"
+
+#: 20
+msgid "No links found."
+msgstr "Ссылки не найдены."
+
+#: 21
+msgid "No logs yet."
+msgstr "Логов пока нет."
+
+#: 22
+msgid "Copied!"
+msgstr "Скопировано!"
+
+#: 23
+msgid "Extracting links"
+msgstr "Извлечение ссылок"
+
+#: 24
+msgid "Checking links"
+msgstr "Проверка ссылок"
+
+#: 25
+msgid "links found"
+msgstr "ссылок найдено"
+
+#: 26
+msgid "Links"
+msgstr "Ссылки"
+
+#: 27
+msgid "Checked"
+msgstr "Проверено"
+
+#: 28
+msgid "Broken"
+msgstr "Битые"
+
+#: 29
+msgid "internal"
+msgstr "внутренние"
+
+#: 30
+msgid "Items to scan"
+msgstr "Элементов для сканирования"
+
+#: 31
+msgid "Pending links"
+msgstr "Ожидающие ссылки"
+
+#: 32
+msgid "View"
+msgstr "Просмотр"
+
+#: 33
+msgid "Search"
+msgstr "Поиск"
+
+#: 34
+msgid "Open archived version in Web Archive"
+msgstr "Открыть архивную версию в Web Archive"
+
+#: 35
+msgid "Search for this URL in Web Archive"
+msgstr "Найти этот URL в Web Archive"
+
+#: 36
+msgid "Not applicable for internal links"
+msgstr "Не применимо для внутренних ссылок"
+
+#: 37
+msgid "Internal link checking is not enabled. Go to Settings tab and enable \"Check internal links for 404 errors\", then run a new scan."
+msgstr "Проверка внутренних ссылок не включена. Перейдите на вкладку «Настройки» и включите «Проверять внутренние ссылки на ошибки 404», затем запустите новое сканирование."
+
+#: 38
+msgid "If found in Web Archive — replace broken link with archive copy. If not found — remove the link tag but keep the anchor text visible."
+msgstr "Если найдено в Web Archive — заменить битую ссылку архивной копией. Если не найдено — удалить тег ссылки, но сохранить текст привязки видимым."
+
+#: 39
+msgid "If found in Web Archive — replace broken link with archive copy. If not found — remove both the link tag and its anchor text completely."
+msgstr "Если найдено в Web Archive — заменить битую ссылку архивной копией. Если не найдено — полностью удалить тег ссылки и текст привязки."
+
+#: 40
+msgid "Do not check Web Archive. Immediately remove the link tag but keep the anchor text visible. Faster processing — saves 1-3 seconds per broken link."
+msgstr "Не проверять Web Archive. Сразу удалить тег ссылки, но сохранить текст привязки видимым. Быстрая обработка — экономит 1-3 секунды на каждую битую ссылку."
+
+#: 41
+msgid "Do not check Web Archive. Immediately remove both the link tag and its anchor text completely. Faster processing — saves 1-3 seconds per broken link."
+msgstr "Не проверять Web Archive. Сразу полностью удалить тег ссылки и текст привязки. Быстрая обработка — экономит 1-3 секунды на каждую битую ссылку."
+
+#: 42
+msgid "No proxies to test"
+msgstr "Нет прокси для тестирования"
+
+#: 43
+msgid "Testing proxies..."
+msgstr "Тестирование прокси..."
+
+#: 44
+msgid "working"
+msgstr "работает"
+
+#: 45
+msgid "Keep only working proxies"
+msgstr "Оставить только рабочие прокси"
+
+#: 46
+msgid "proxies kept"
+msgstr "прокси сохранено"
+
+#: 47
+msgid "proxies saved"
+msgstr "прокси сохранено"
+
+#: 48
+msgid "1 proxy configured"
+msgstr "1 прокси настроен"
+
+#: 49
+msgid "proxies configured"
+msgstr "прокси настроено"
+
+#: 50
+msgid "Clear all proxies?"
+msgstr "Очистить все прокси?"
+
+#: 51
+msgid "Edit Source"
+msgstr "Редактировать источник"
+
+#: 52
+msgid "Edit post in WordPress"
+msgstr "Редактировать запись в WordPress"
+
+#: 53
+msgid "View Page"
+msgstr "Просмотр страницы"
+
+#: 54
+msgid "View on site"
+msgstr "Смотреть на сайте"
+
+#: 55
+msgid "Replace with archived version"
+msgstr "Заменить архивной версией"
+
+#: 56
+msgid "Remove link, keep text"
+msgstr "Удалить ссылку, сохранить текст"
+
+#: 57
+msgid "Delete link and text"
+msgstr "Удалить ссылку и текст"
+
+#: 58
+msgid "Replace with custom URL"
+msgstr "Заменить на свой URL"
+
+#: 59
+msgid "Skip this link"
+msgstr "Пропустить эту ссылку"
+
+#: 60
+msgid "Undo this action"
+msgstr "Отменить это действие"
+
+#: 61
+msgid "Recheck this link"
+msgstr "Перепроверить эту ссылку"
+
+#: 62
+msgid "Settings"
+msgstr "Настройки"
+
+#: 63
+msgid "Process"
+msgstr "Обработка"
+
+#: 64
+msgid "Broken Links"
+msgstr "Битые ссылки"
+
+#: 65
+msgid "Scan Sources"
+msgstr "Источники сканирования"
+
+#: 66
+msgid "Post Types"
+msgstr "Типы записей"
+
+#: 67
+msgid "Select which post types to scan for broken links."
+msgstr "Выберите типы записей для сканирования на битые ссылки."
+
+#: 68
+msgid "Internal Links"
+msgstr "Внутренние ссылки"
+
+#: 69
+msgid "Check internal links for 404 errors"
+msgstr "Проверять внутренние ссылки на ошибки 404"
+
+#: 70
+msgid "Proxy Settings"
+msgstr "Настройки прокси"
+
+#: 71
+msgid "Proxy List"
+msgstr "Список прокси"
+
+#: 72
+msgid "Optional"
+msgstr "Необязательно"
+
+#: 73
+msgid "Add Proxies"
+msgstr "Добавить прокси"
+
+#: 74
+msgid "Clear Proxies"
+msgstr "Очистить прокси"
+
+#: 75, 76
+msgid "%d proxy configured"
+msgid_plural "%d proxies configured"
+msgstr[0] "%d прокси настроен"
+msgstr[1] "%d прокси настроено"
+msgstr[2] "%d прокси настроено"
+
+#: 77
+msgid "ip:port:user:pass (one per line)"
+msgstr "ip:port:user:pass (по одному на строку)"
+
+#: 78
+msgid "Format: ip:port:user:pass — one proxy per line."
+msgstr "Формат: ip:port:user:pass — один прокси на строку."
+
+#: 79
+msgid "Test Proxies"
+msgstr "Проверить прокси"
+
+#: 80
+msgid "Some sites may block automated scanning. Add proxies to bypass these restrictions."
+msgstr "Некоторые сайты могут блокировать автоматическое сканирование. Добавьте прокси для обхода этих ограничений."
+
+#: 81
+msgid "Automatic Actions"
+msgstr "Автоматические действия"
+
+#: 82
+msgid "Processing Mode"
+msgstr "Режим обработки"
+
+#: 83
+msgid "Manual — Review and fix links manually"
+msgstr "Вручную — Просматривайте и исправляйте ссылки вручную"
+
+#: 84
+msgid "Automatic — Fix broken links during scan"
+msgstr "Автоматически — Исправлять битые ссылки во время сканирования"
+
+#: 85
+msgid "Auto Action"
+msgstr "Автоматическое действие"
+
+#: 86
+msgid "Web Archive if possible, otherwise remove link"
+msgstr "Web Archive если возможно, иначе удалить ссылку"
+
+#: 87
+msgid "Web Archive if possible, otherwise remove link and anchor text"
+msgstr "Web Archive если возможно, иначе удалить ссылку и текст привязки"
+
+#: 88
+msgid "Skip Web Archive, just remove link"
+msgstr "Пропустить Web Archive, просто удалить ссылку"
+
+#: 89
+msgid "Skip Web Archive, remove link and anchor text"
+msgstr "Пропустить Web Archive, удалить ссылку и текст привязки"
+
+#: 90
+msgid "Apply auto-fix to internal 404 links"
+msgstr "Применять автоисправление к внутренним ссылкам с ошибкой 404"
+
+#: 91
+msgid "When enabled, internal 404 links will be automatically fixed during scan. Web Archive is not used for internal links — they will be removed based on the action above (keep or remove anchor text)."
+msgstr "Когда включено, внутренние ссылки с ошибкой 404 будут автоматически исправлены во время сканирования. Web Archive не используется для внутренних ссылок — они будут удалены в соответствии с выбранным выше действием (сохранить или удалить текст привязки)."
+
+#: 92
+msgid "Save Settings"
+msgstr "Сохранить настройки"
+
+#: 93
+msgid "Restore websites from the <strong>Wayback Machine</strong> with high accuracy. Download archived sites, remove ads and trackers, optimize images, and get a fully functional copy powered by the free <strong>Archivarix CMS</strong>. Trusted by thousands of users worldwide since 2017 for website recovery, migration, and SEO projects."
+msgstr "Восстанавливайте сайты из <strong>Wayback Machine</strong> с высокой точностью. Скачивайте архивные сайты, удаляйте рекламу и трекеры, оптимизируйте изображения и получайте полностью рабочую копию на бесплатной <strong>Archivarix CMS</strong>. С 2017 года тысячи пользователей по всему миру доверяют нам восстановление сайтов, миграцию и SEO-проекты."
+
+#: 94
+msgid "Visit Website"
+msgstr "Посетить сайт"
+
+#: 95
+msgid "Scan & Check Links"
+msgstr "Сканирование и проверка ссылок"
+
+#: 96
+msgid "Scan your content for links and check their status."
+msgstr "Сканируйте ваш контент на наличие ссылок и проверяйте их статус."
+
+#: 97
+msgid "Previous scan was stopped. You can resume or start fresh."
+msgstr "Предыдущее сканирование было остановлено. Вы можете возобновить его или начать заново."
+
+#: 98
+msgid "Resume"
+msgstr "Возобновить"
+
+#: 99
+msgid "Start Fresh"
+msgstr "Начать заново"
+
+#: 100
+msgid "Background process is running..."
+msgstr "Фоновый процесс выполняется..."
+
+#: 101
+msgid "Pause"
+msgstr "Пауза"
+
+#: 102
+msgid "Stop"
+msgstr "Стоп"
+
+#: 103
+msgid "Total:"
+msgstr "Всего:"
+
+#: 104
+msgid "Internal:"
+msgstr "Внутренние:"
+
+#: 105
+msgid "External:"
+msgstr "Внешние:"
+
+#: 106
+msgid "Checked:"
+msgstr "Проверено:"
+
+#: 107
+msgid "Internal"
+msgstr "Внутренние"
+
+#: 108
+msgid "External"
+msgstr "Внешние"
+
+#: 109
+msgid "Broken:"
+msgstr "Битые:"
+
+#: 110
+msgid "Fixed:"
+msgstr "Исправлено:"
+
+#: 111
+msgid "Uncheckable:"
+msgstr "Непроверяемые:"
+
+#: 112
+msgid "Skipped:"
+msgstr "Пропущено:"
+
+#: 113
+msgid "Total"
+msgstr "Всего"
+
+#: 114
+msgid "OK"
+msgstr "OK"
+
+#: 115
+msgid "Fixed"
+msgstr "Исправлено"
+
+#: 116
+msgid "Uncheckable"
+msgstr "Непроверяемые"
+
+#: 117
+msgid "Skipped"
+msgstr "Пропущено"
+
+#: 118
+msgid "Clear All Data"
+msgstr "Очистить все данные"
+
+#: 119
+msgid "All statuses"
+msgstr "Все статусы"
+
+#: 120
+msgid "Pending"
+msgstr "В ожидании"
+
+#: 121
+msgid "Search URL or anchor..."
+msgstr "Поиск по URL или якорному тексту..."
+
+#: 122
+msgid "Filter"
+msgstr "Фильтр"
+
+#: 123
+msgid "All"
+msgstr "Все"
+
+#. Button label for link type filter
+#: 124
+msgctxt "button label for link type filter"
+msgid "External"
+msgstr "Внешние"
+
+#: 125
+msgid "Internal 404"
+msgstr "Внутренние 404"
+
+#: 126
+msgid "Bulk Actions"
+msgstr "Массовые действия"
+
+#: 127
+msgid "Use Archive copy"
+msgstr "Использовать архивную копию"
+
+#: 128
+msgid "Keep text only"
+msgstr "Оставить только текст"
+
+#: 129
+msgid "Delete completely"
+msgstr "Удалить полностью"
+
+#: 130
+msgid "Skip"
+msgstr "Пропустить"
+
+#: 131
+msgid "Undo"
+msgstr "Отменить"
+
+#: 132
+msgid "Apply"
+msgstr "Применить"
+
+#: 133
+msgid "Show:"
+msgstr "Показать:"
+
+#. For per-page selector
+#: 134
+msgctxt "for per-page selector"
+msgid "All"
+msgstr "Все"
+
+#: 135
+msgid "Tip:"
+msgstr "Совет:"
+
+#: 136
+msgid "For complex pages (Elementor, page builders), it's better to edit directly in the WordPress editor. Use \"Edit Source\" button to open the post."
+msgstr "Для сложных страниц (Elementor, конструкторы страниц) лучше редактировать непосредственно в редакторе WordPress. Используйте кнопку «Редактировать источник», чтобы открыть запись."
+
+#: 137
+msgid "URL"
+msgstr "URL"
+
+#: 138
+msgid "Status"
+msgstr "Статус"
+
+#: 139
+msgid "Reason"
+msgstr "Причина"
+
+#. Column header
+#: 140
+msgctxt "column header"
+msgid "Edit Source"
+msgstr "Редактировать источник"
+
+#: 141
+msgid "Web Archive"
+msgstr "Web Archive"
+
+#: 142
+msgid "Actions"
+msgstr "Действия"
+
+#: 143
+msgid "Run a scan first, then view results here."
+msgstr "Сначала запустите сканирование, затем смотрите результаты здесь."
